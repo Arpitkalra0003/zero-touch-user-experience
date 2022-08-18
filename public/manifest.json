@@ -1,0 +1,17 @@
+{
+  "short_name": "Zero touch user experience",
+  "name": "Zero touch user experience",
+  "shortcuts": [
+      {
+        "name": "Home",
+        "short_name": "Home section",
+        "description": "Go to home section",
+        "url": "/"
+      
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#7e30db",
+    "background_color": "#282c34"
+}
