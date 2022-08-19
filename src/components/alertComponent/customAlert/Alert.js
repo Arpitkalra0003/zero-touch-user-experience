@@ -40,27 +40,17 @@ const Alert = ({
                 <div className="logoAlert">
                  
                   <strong style={{ color: "#000" }}>
-                    Please select the connection type
+                    Please check your internet connection
                   </strong>
                 </div>
               
               </div>
               <div className="subtitleAlert">
-              <Select
-      defaultValue="wms"
-      style={{
-        width: 120,
-      }}
-      onChange={handleChange}
-    >
-       <Option value="wms">WMS</Option>
-      <Option value="vmware">VMWARE</Option>
-      <Option value="citrix">CITRIX</Option>
-    </Select>
+           
     <Button type="primary"  className="go-btn" onClick={() => {
                       onClose();
                       setStartProcess(true)
-                    }}>Go</Button>
+                    }}>Ok</Button>
   
               </div>
              
